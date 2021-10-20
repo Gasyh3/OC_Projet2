@@ -1,0 +1,39 @@
+
+/* ==== Section : Hebergement et Populaire ===== */
+#section-hebergement-populaire {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-basis: 100%;
+    background-color: white;
+}
+
+/* ==== Section populaire ==== */
+#section-populaire {
+	display: flex;
+    flex-direction: column;
+	background-color: #F2F2F2;
+	border-radius: 15px;
+    flex-basis: 100%;
+}
+
+.populaire-global {
+	margin: 30px;
+}
+
+/* ==== Section : hebergement ===== */
+#section-hebergement {
+	display: flex;
+	flex-direction: column;
+    width: 100%;
+	background-color:#F2F2F2;
+	border-radius: 15px;
+	margin-right: 50px;
+    padding-left: 20px;
+}
+
+.activites-global {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
