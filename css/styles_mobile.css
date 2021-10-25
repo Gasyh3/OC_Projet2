@@ -1,4 +1,8 @@
+#logo {
+	margin-left: 150px;
+}
 
+/* ==== Navbar ===== */
 nav {
 	flex-basis: 100%;
 }
@@ -15,7 +19,7 @@ nav a:hover {
 	color:#0065FC;
 }
 
-
+/* ==== MAIN ===== */
 main {
 	display: flex;
 	flex-direction: row;
@@ -26,8 +30,14 @@ main {
 	padding: 0;
 }
 
+/* ==== Section: Post-header ==== */
 #post-header {
 	padding: 0 10px 0 10px;
+}
+
+.box-search-post-header {
+	margin-bottom: 0;
+	margin-left: 40px;
 }
 /* ==== button loupe ==== */
 .button-box {
@@ -60,23 +70,17 @@ main {
     width: 100%;
 }
 
-
 .bloc-filtre {
     display: flex;
     flex-wrap: wrap;
 }
 
 .filtre {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-    height: 50px;
 	margin-right : 20px;
     margin-bottom: 20px;
-	border: solid 2px #F2F2F2;
-	border-radius: 50px;
 }
 
+/* ==== Effet sur les filtres ==== */
 .filtre:hover > .icon-filtre {
 	background-color: #0065FC;
 	color: white;
@@ -116,7 +120,6 @@ main {
 	flex-basis: 100%;
 }
 
-
 /* ==== Section populaire ==== */
 #section-populaire {
 	display: flex;
@@ -135,7 +138,7 @@ main {
 }
 
 .hotel-populaire {
-	min-width: 400px;
+	max-width: 400px;
 }
 
 /* ==== Section : hebergement ==== */
@@ -182,6 +185,12 @@ main {
 	align-items: center;
 }
 
+.activites-part-1, .activites-part-2, .activites-part-3, .activites-part-4 {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
 .activite-marseille-small, .activite-marseille-medium, .activite-marseille-large {
 	display: flex;
 	flex-direction: column;
@@ -190,8 +199,11 @@ main {
 }
 
 .activite-marseille-small img, .activite-marseille-medium img, .activite-marseille-large img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	object-fit: cover;
-	height: 100%;
+	height: 210px;
 	width: 400px;
 	margin: 0;
 	border-radius: 20px 20px 0 0;
@@ -202,21 +214,20 @@ footer {
 	flex-direction: column;
 	flex-basis: 100%;
 	background-color: #F2F2F2;
+	gap: 0;
 }
 
 .footer-column {
 	display: flex;
 	flex-direction: column;
-	margin-left: 0;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
 }
+
 .footer-link li {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
 	padding: 2px;
-}
-
-.footer-link li a {
-	text-decoration: none;
-	color: black;
 }
