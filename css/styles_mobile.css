@@ -39,6 +39,10 @@ main {
 	margin-bottom: 0;
 	margin-left: 40px;
 }
+
+.box-title-post-header h1 {
+	font-size: 25px;
+}
 /* ==== button loupe ==== */
 .button-box {
 	height: 50px;
@@ -111,6 +115,10 @@ main {
 	margin-right: 15px;
 }
 
+.text-filtre h3 {
+	font-size: 16px;
+}
+
 /* ==== Section : Hebergement et Populaire ===== */
 
 #section-hebergement-populaire {
@@ -127,6 +135,10 @@ main {
 	border-radius: 0;
 	background-color: #F2F2F2;
 	flex-basis: 100%;
+}
+
+#section-populaire .titre {
+	margin: 30px 20px 0 65px;
 }
 
 .populaire-global {
@@ -150,12 +162,16 @@ main {
 	padding: 10px;
 }
 
+#section-hebergement .titre {
+	margin: 0px 0 0 65px;
+}
+
 .hebergement-global {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 30px;
+	margin: 0px 30px;
 }
 
 .hebergement-section {
@@ -177,6 +193,9 @@ main {
 }
 
 /* ===== Section : Activite ===== */
+#section-activites .titre {
+	margin: 30px 0 0 25px;
+}
 
 .activites-global {
 	display: flex;

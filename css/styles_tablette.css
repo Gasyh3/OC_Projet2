@@ -1,5 +1,11 @@
+.bloc-filtre {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
+.filtre {
+    margin-bottom: 12px;
+}
 /* ==== Section : Hebergement et Populaire ===== */
 #section-hebergement-populaire {
     display: flex;
