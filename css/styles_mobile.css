@@ -23,6 +23,9 @@ nav a:hover {
 	color:#0065FC;
 }
 
+main {
+	margin-left: 0;
+}
 /* ==== Section: Post-header ==== */
 
 .box-search-post-header {
