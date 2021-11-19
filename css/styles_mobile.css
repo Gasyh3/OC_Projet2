@@ -1,8 +1,12 @@
-#logo {
-	margin-left: 150px;
+/* === HEADER === */
+
+.header-logo {
+	margin-right: 0;
+	text-align: center;
+	flex-basis: 100%;
 }
 
-/* ==== Navbar ===== */
+/* ==== NAV ===== */
 nav {
 	flex-basis: 100%;
 }
@@ -19,29 +23,18 @@ nav a:hover {
 	color:#0065FC;
 }
 
-/* ==== MAIN ===== */
-main {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	justify-content: space-evenly;
-	flex-basis: 100%;
-	padding: 0;
-}
-
 /* ==== Section: Post-header ==== */
-#post-header {
-	padding: 0 10px 0 10px;
-}
 
 .box-search-post-header {
-	margin-bottom: 0;
-	margin-left: 40px;
+	margin: auto;
 }
 
 .box-title-post-header h1 {
 	font-size: 25px;
+}
+
+.search-box {
+	width: 180px;
 }
 /* ==== button loupe ==== */
 .button-box {
@@ -68,15 +61,13 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-    margin-left: 20px;
-	margin-top: 30px;
-	margin-bottom: 10px;
     width: 100%;
 }
 
 .bloc-filtre {
     display: flex;
     flex-wrap: wrap;
+	flex-basis: 100%;
 }
 
 .filtre {
@@ -94,38 +85,17 @@ main {
 	color:#0065FC;
 }
 
-.icon-filtre {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 50px;
-	width: 50px;
-	border: none;
-	border-radius: 100px;
-	background-color: #DEEBFF;
-	color:#0065FC;
-	margin-left: -2px;
-}
-
-.text-filtre {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
 .text-filtre h3 {
 	font-size: 16px;
 }
 
-/* ==== Section : Hebergement et Populaire ===== */
-
+/* === Section hebergement === */
 #section-hebergement-populaire {
 	display: flex;
 	flex-direction: column-reverse;
 	background-color: white;
-	flex-basis: 100%;
+	width: 100%;
+	padding: 0;
 }
 
 /* ==== Section populaire ==== */
@@ -134,11 +104,11 @@ main {
 	flex-direction: column;
 	border-radius: 0;
 	background-color: #F2F2F2;
-	flex-basis: 100%;
+	width: 100%;
 }
 
 #section-populaire .titre {
-	margin: 30px 20px 0 65px;
+	margin: 20px 20px 0 10px;
 }
 
 .populaire-global {
@@ -146,55 +116,67 @@ main {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 30px;
+	flex-basis: 100%;
 }
 
 .hotel-populaire {
-	max-width: 400px;
+	width: 310px;
 }
 
-/* ==== Section : hebergement ==== */
+.img-populaire img {
+	flex-basis: 40%;
+}
 
+
+/* ==== Section : hebergement ==== */
 #section-hebergement {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 	background-color: white;
-	padding: 10px;
 }
 
 #section-hebergement .titre {
-	margin: 0px 0 0 65px;
+	margin-left: 10px;
 }
 
 .hebergement-global {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 0px 30px;
+	padding: 20px;
+	margin-right: 0;
 }
 
 .hebergement-section {
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 100%;
 }
 
 .hotel-hebergement {
 	display: flex;
 	flex-direction: column;
-	padding: 5px;
   	background-color: white;
 	border-radius: 20px;
-	width: 400px;
+	flex-basis: 100%;
 	height: 220px;
-	margin: 20px;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.hotel-hebergement a {
+	min-width: 300px;
+	width: 100%;
+}
+
 /* ===== Section : Activite ===== */
+#section-activites {
+	padding: 0;
+} 
+
 #section-activites .titre {
-	margin: 30px 0 0 25px;
+	margin: 30px 0 0 20px;
 }
 
 .activites-global {
@@ -202,6 +184,10 @@ main {
 	flex-direction: column;
 	flex-basis: 100%;
 	align-items: center;
+}
+
+.space-bottom {
+	margin-bottom: 0;
 }
 
 .activites-part-1, .activites-part-2, .activites-part-3, .activites-part-4 {
@@ -213,8 +199,9 @@ main {
 .activite-marseille-small, .activite-marseille-medium, .activite-marseille-large {
 	display: flex;
 	flex-direction: column;
-	height: 250px;
-	width: 400px;
+	height: 220px;
+	width: 300px;
+	flex-basis: 100%;
 }
 
 .activite-marseille-small img, .activite-marseille-medium img, .activite-marseille-large img {
@@ -222,12 +209,13 @@ main {
 	align-items: center;
 	justify-content: center;
 	object-fit: cover;
-	height: 210px;
-	width: 400px;
+	height: 180px;
+	flex-basis: 100%;
 	margin: 0;
 	border-radius: 20px 20px 0 0;
 }
 
+/* === FOOTER === */
 footer {
 	display: flex;
 	flex-direction: column;
