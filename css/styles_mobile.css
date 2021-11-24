@@ -218,21 +218,33 @@ main {
 	border-radius: 20px 20px 0 0;
 }
 
+.activite-marseille-info {
+	margin: 0;
+	height: 40px;
+}
+
+.activite-marseille-info h3 {
+	margin: 20px 10px;
+}
+
+
 /* === FOOTER === */
 footer {
-	display: flex;
-	flex-direction: column;
 	flex-basis: 100%;
 	background-color: #F2F2F2;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
 	gap: 0;
 }
 
 .footer-column {
 	display: flex;
 	flex-direction: column;
-	margin-top: 10px;
-	margin-left: 20px;
-	margin-bottom: 10px;
+	padding: 0;
+	width: 100%;
 }
 
 .footer-link li {
