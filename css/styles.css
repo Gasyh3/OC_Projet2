@@ -42,7 +42,6 @@ nav a:hover {
 }
 
 /* === MAIN === */
-
 main {
     display: flex;
     flex-direction: column;
@@ -180,6 +179,10 @@ main {
 	margin-right: 15px;
 }
 
+.text-filtre h3 {
+	font-size: 15px;
+}
+
 /* ==== Petite legende ==== */
 .box-information-post-header {
 	display: flex;
@@ -210,7 +213,6 @@ main {
     display: flex;
     flex-basis: 100%;
     background-color: white;
-    margin-bottom: 50px;
     padding: 20px;
     gap: 20px;
 }
@@ -275,9 +277,8 @@ main {
 	object-fit: cover;
 	margin: 0;
 	border-radius: 20px 0 0 20px;
-	height: 170px;
+	height: 150px;
 	width: 40%;
-	min-width: 170px;
 }
 
 .hotel-populaire-info {
@@ -367,7 +368,7 @@ main {
 }
 
 .hotel-hebergement-info h3 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     margin: 0;
 }
@@ -497,12 +498,12 @@ main {
 
 .activite-marseille-info {
 	margin: 0;
-    height: 40px;
+    height: 70px;
 }
 
 .activite-marseille-info h3{
-   margin: 10px 0 5px 20px;
-   font-size: 16px;
+	margin: 5px 0 5px 20px;
+   font-size: 15px;
 }
 
 .activite-click {
@@ -512,19 +513,23 @@ main {
 
 /* === FOOTER === */
 footer {
-	display: flex;
-	flex-direction: row;
-	flex-basis: 100%;
 	background-color: #F2F2F2;
-	gap: 300px;
+	width: 100%;
+
+}
+
+.footer-container {
+	display: flex;
+	margin: auto;
+	max-width: 100%;
+	padding: 0 20px;
 }
 
 .footer-column {
 	display: flex;
 	flex-direction: column;
-	margin-left: 20px;
-	margin-top: 30px;
-	margin-bottom: 20px;
+	padding: 20px 20px;
+	width: 33%;
 }
 
 .footer-link {
