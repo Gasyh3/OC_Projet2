@@ -59,12 +59,3 @@ main {
 .activites-part-4 {
     flex-basis: 40%;
 }
-
-
-/* ==== FOOTER ===== */
-footer {
-    display: flex;
-    flex-basis: 100%;
-    background-color: #F2F2F2;
-    gap: 100px;
-}
